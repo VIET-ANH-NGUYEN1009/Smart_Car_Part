@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="DGyxEU7Gd1afNDstyDF_">
-    <mxGraphModel dx="1572" dy="4168" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="4005" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -100,7 +100,7 @@
         <mxCell id="ARJTMiJBZuqtaoDLN08L-27" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="Nhấn&amp;nbsp; nút trả xe/ gửi xe" vertex="1">
           <mxGeometry height="143" width="235" x="1399.5" y="-2146" as="geometry" />
         </mxCell>
-        <mxCell id="ARJTMiJBZuqtaoDLN08L-35" edge="1" parent="1" source="ARJTMiJBZuqtaoDLN08L-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ARJTMiJBZuqtaoDLN08L-34" value="">
+        <mxCell id="TZBj_Liqza_sotpi1hGj-2" edge="1" parent="1" source="ARJTMiJBZuqtaoDLN08L-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TZBj_Liqza_sotpi1hGj-1" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ARJTMiJBZuqtaoDLN08L-29" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Gửi xe" vertex="1">
@@ -109,8 +109,20 @@
         <mxCell id="ARJTMiJBZuqtaoDLN08L-31" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Trả xe" vertex="1">
           <mxGeometry height="60" width="120" x="1772" y="-2104.5" as="geometry" />
         </mxCell>
-        <mxCell id="ARJTMiJBZuqtaoDLN08L-34" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="1142" y="-1964.5" as="geometry" />
+        <mxCell id="TZBj_Liqza_sotpi1hGj-4" edge="1" parent="1" source="TZBj_Liqza_sotpi1hGj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TZBj_Liqza_sotpi1hGj-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TZBj_Liqza_sotpi1hGj-1" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="Kiểm tra có biển số xe này trong bãi chưa" vertex="1">
+          <mxGeometry height="122.5" width="162" x="1121" y="-1973" as="geometry" />
+        </mxCell>
+        <mxCell id="TZBj_Liqza_sotpi1hGj-6" edge="1" parent="1" source="TZBj_Liqza_sotpi1hGj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TZBj_Liqza_sotpi1hGj-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TZBj_Liqza_sotpi1hGj-3" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Lưu dữ liệu biển số và khuôn mặt" vertex="1">
+          <mxGeometry height="60" width="120" x="1142" y="-1739.25" as="geometry" />
+        </mxCell>
+        <mxCell id="TZBj_Liqza_sotpi1hGj-5" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Gửi dữ liệu điều khiển cho Arduino" vertex="1">
+          <mxGeometry height="60" width="120" x="1142" y="-1599.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
